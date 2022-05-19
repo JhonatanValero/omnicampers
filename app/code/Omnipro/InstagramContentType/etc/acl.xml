@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Omnipro_InstagramContentType::productattachment" title="Integration instagram key" sortOrder="1">
+                    <resource id="Omnipro_InstagramContentType::api_key" title="Api key" sortOrder="50" />
+                    <resource id="Omnipro_InstagramContentType::profile_id" title="profile id" sortOrder="100" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
